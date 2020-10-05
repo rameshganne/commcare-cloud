@@ -6,3 +6,11 @@ users:
   - consultants
 slack_alerts_channel: alerts-india
 secrets_backend: aws-secrets
+git_repositories:
+  - name: icds
+    url: git@github.com:dimagi/commcare-icds.git
+    dest: icds
+    deploy_key: deploy_key.pem
+    is_private: true
+deploy_keys:
+  deploy_key.vault: deploy_key.pem

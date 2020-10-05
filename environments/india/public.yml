@@ -103,6 +103,14 @@ localsettings:
   BANK_ADDRESS: { 'first_line': "1 Citizens Drive", 'city': "Riverside", 'region': "RI", 'postal_code': "02915" }
   BANK_NAME: "RBS Citizens N.A."
   BANK_SWIFT_CODE: 'CTZIUS33'
+  COMMCARE_EXTENSIONS:
+    - custom.icds.commcare_extensions
+  LOCAL_APPS:
+    - { name: "custom.icds", host: "all" }
+    - { name: "custom.icds.data_management", host: "all" }
+    - { name: "custom.icds_reports", host: "all" }
+  LOCAL_CUSTOM_DB_ROUTING:
+    icds_reports: icds-ucr-citus
 #  COUCH_CACHE_DOCS:
 #  COUCH_CACHE_VIEWS:
   COUCH_USERNAME: "{{ COUCH_USERNAME }}"
