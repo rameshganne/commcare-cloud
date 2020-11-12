@@ -16,6 +16,8 @@ control1-production: 10.202.10.158
 control1-production.instance_id: i-0cff282a9692b2f47
 couch12-production: 10.202.40.52
 couch12-production.instance_id: i-0e9aaeea3a117206e
+couch12a-production: 10.202.40.88
+couch12a-production.instance_id: i-0ba663f8e33949d3f
 couch13-production: 10.202.40.154
 couch13-production.instance_id: i-00a287226e9555670
 couch14-production: 10.202.40.216
