@@ -20,8 +20,12 @@ couch12a-production: 10.202.40.88
 couch12a-production.instance_id: i-0ba663f8e33949d3f
 couch13-production: 10.202.40.154
 couch13-production.instance_id: i-00a287226e9555670
+couch13a-production: 10.202.40.57
+couch13a-production.instance_id: i-08e34d76cac4ec0c8
 couch14-production: 10.202.40.216
 couch14-production.instance_id: i-0634cf1adc9ba838c
+couch14a-production: 10.202.40.10
+couch14a-production.instance_id: i-01cd0d358b9031707
 couchproxy2-production: 10.202.40.235
 couchproxy2-production.instance_id: i-0e841461ac8db35ac
 djangomanage1-production: 10.202.10.54
